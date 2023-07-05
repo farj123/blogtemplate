@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spline+Sans+Mono:wght@500&family=Tiro+Tamil:ital@0;1&display=swap');
+
+:root {
+    --main-bg-color: rgb(114, 3, 114);
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Spline Sans Mono', monospace;
+}
+
+.center{
+    text-align: center;
+}
+.font1{
+    font-family: var(--font1);
+}
+
+
+.font2{
+    font-family: var(--font2);
+}
+
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.btn {
+    padding: 0px 15px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn:hover{
+    color: white;
+    background: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 0px 18px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 0 4px;
+    font-family: var(--font1);
+}
+
+.form-box input, textarea{
+    width: 45vw;
+    padding: 0px 7px;
+    margin: 3px 0px;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid black;
+    border-radius: 5px;
+}
